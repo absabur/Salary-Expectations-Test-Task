@@ -49,55 +49,54 @@ export const faqsData = {
       active: false,
     },
   ],
-  // Role_OverView: [
-  // {
-  //   id: "accordionInputblock-14--block-timeline-1-1",
-  //   title: "COURSE 1",
-  //   heading: "Getting Started with IT Roles",
-  //   description:
-  //     "Discover the responsibilities of IT roles and the importance of support processes, effective communication, and workplace diversity.",
-  //   active: false,
-  // },
-  // },
-  // {
-  //   id: "accordionInputblock-14--block-timeline-2-1",
-  //   title: "COURSE 2",
-  //   heading: "Problem-Solving in IT",
-  //   description:
-  //     "Learn how to diagnose and solve IT problems efficiently, using the right tools and methodologies while following company procedures.",
-  //   active: false,
-  // },
-  // {
-  //   id: "accordionInputblock-14--block-timeline-3-1",
-  //   title: "COURSE 3",
-  //   heading: "Hardware & Client Systems",
-  //   description:
-  //     "Gain hands-on knowledge of hardware components, client system configuration, and preparing devices for end-user needs.",
-  //   active: false,
-  // },
-  // {
-  //   id: "accordionInputblock-14--block-timeline-4-1",
-  //   title: "COURSE 4",
-  //   heading: "Maintaining IT Infrastructure",
-  //   description:
-  //     "Focus on system maintenance, upgrades, disaster recovery planning, and keeping IT infrastructure reliable and secure.",
-  //   active: false,
-  // },
-  // {
-  //   id: "accordionInputblock-14--block-timeline-5-1",
-  //   title: "COURSE 5",
-  //   heading: "Networking & Connectivity",
-  //   description:
-  //     "Explore networking concepts, connectivity solutions, and practical techniques for managing network services effectively.",
-  //   active: false,
-  // },
-  // {
-  //   id: "accordionInputblock-14--block-timeline-6-1",
-  //   title: "COURSE 6",
-  //   heading: "Cloud & Virtual Infrastructure",
-  //   description:
-  //     "Understand cloud architectures, virtualisation strategies, and how to integrate cloud solutions securely in an IT environment.",
-  //   active: false,
-  // },
-  // ],
+  Role_OverView: [
+    {
+      id: "accordionInputblock-14--block-timeline-1-1",
+      title: "COURSE 1",
+      heading: "Getting Started with IT Roles",
+      description:
+        "Discover the responsibilities of IT roles and the importance of support processes, effective communication, and workplace diversity.",
+      active: false,
+    },
+    {
+      id: "accordionInputblock-14--block-timeline-2-1",
+      title: "COURSE 2",
+      heading: "Problem-Solving in IT",
+      description:
+        "Learn how to diagnose and solve IT problems efficiently, using the right tools and methodologies while following company procedures.",
+      active: false,
+    },
+    // {
+    //   id: "accordionInputblock-14--block-timeline-3-1",
+    //   title: "COURSE 3",
+    //   heading: "Hardware & Client Systems",
+    //   description:
+    //     "Gain hands-on knowledge of hardware components, client system configuration, and preparing devices for end-user needs.",
+    //   active: false,
+    // },
+    // {
+    //   id: "accordionInputblock-14--block-timeline-4-1",
+    //   title: "COURSE 4",
+    //   heading: "Maintaining IT Infrastructure",
+    //   description:
+    //     "Focus on system maintenance, upgrades, disaster recovery planning, and keeping IT infrastructure reliable and secure.",
+    //   active: false,
+    // },
+    // {
+    //   id: "accordionInputblock-14--block-timeline-5-1",
+    //   title: "COURSE 5",
+    //   heading: "Networking & Connectivity",
+    //   description:
+    //     "Explore networking concepts, connectivity solutions, and practical techniques for managing network services effectively.",
+    //   active: false,
+    // },
+    // {
+    //   id: "accordionInputblock-14--block-timeline-6-1",
+    //   title: "COURSE 6",
+    //   heading: "Cloud & Virtual Infrastructure",
+    //   description:
+    //     "Understand cloud architectures, virtualisation strategies, and how to integrate cloud solutions securely in an IT environment.",
+    //   active: false,
+    // },
+  ],
 };
