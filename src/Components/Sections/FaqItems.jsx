@@ -22,7 +22,7 @@ const FaqItems = () => {
   const tabs = Object.keys(courses);
 
   return (
-    <div className="px-[60px] container mx-auto max-w-[1480px] mb-100">
+    <div className="px-[10px] sm:px-[60px] container mx-auto max-w-[1480px] mb-100">
       <div className="flex items-center border-b border-pink-600">
         {tabs.map((tab) => (
           <div
@@ -51,11 +51,11 @@ const FaqItems = () => {
       <div className="relative py-7">
         {courses[activeTab].map((course, idx) => (
           <div key={course?.id} className="flex relative">
-            <div className="flex-3 text-black text-lg font-bold leading-[26px]">
+            <div className="hidden sm:flex flex-3 text-black text-lg font-bold leading-[26px]">
               COURSE {idx + 1}
             </div>
 
-            <div className="flex-1 mt-3 relative">
+            <div className="hidden sm:inline-block flex-1 mt-3 relative">
               <div
                 className={`w-[25px] h-[25px] rounded-full border-2 z-10 ${
                   course?.active
@@ -68,7 +68,7 @@ const FaqItems = () => {
               )}
             </div>
 
-            <div className="flex-6 pl-6">
+            <div className="flex-6 sm:pl-6 pl-0">
               <FaqItem
                 course={course}
                 tabsKey={activeTab}
