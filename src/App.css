@@ -10,3 +10,28 @@
   top: 10px;
   width: 0;
 }
+
+.play {
+  transition: all 0.3;
+}
+
+.play:before {
+  border-bottom: 25px solid transparent;
+  border-left: 40px solid #553982;
+  border-top: 25px solid transparent;
+  content: "";
+  height: 0;
+  left: 55%;
+  width: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.play:hover:before {
+  border-left: 40px solid white;
+}
+
+.tab:hover .hover-effect {
+  width: 100%;
+}

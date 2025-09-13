@@ -1,11 +1,14 @@
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-const FaqItem = ({ course, closeOthers, tabsKey }) => {
+const FaqItem = ({ course, closeOthers }) => {
   const isActive = course?.active;
 
   return (
     <div className="relative bg-[#f6f6f6] rounded-lg p-[15px_30px] transition-all mb-5">
-      <h4 className="text-[#2c2c32] font-sans text-base font-bold leading-[22px] pb-3 uppercase">
+      <h4
+        onClick={() => closeOthers(course?.id, !isActive)}
+        className="text-[#2c2c32] font-sans text-base font-bold leading-[22px] pb-3 uppercase cursor-pointer"
+      >
         {course?.heading}
       </h4>
 
@@ -20,8 +23,8 @@ const FaqItem = ({ course, closeOthers, tabsKey }) => {
       </div>
 
       <button
-        className="flex items-center gap-2 text-[#040033] font-bold mt-2"
-        onClick={() => closeOthers(course?.id, tabsKey, !isActive)}
+        className="flex items-center gap-2 text-[#040033] font-bold mt-2 cursor-pointer"
+        onClick={() => closeOthers(course?.id, !isActive)}
       >
         Discover More {isActive ? <IoIosArrowUp /> : <IoIosArrowDown />}
       </button>
