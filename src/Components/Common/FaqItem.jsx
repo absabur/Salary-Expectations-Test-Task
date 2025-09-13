@@ -4,7 +4,7 @@ const FaqItem = ({ course, closeOthers }) => {
   const isActive = course?.active;
 
   return (
-    <div className="relative bg-[#f6f6f6] rounded-lg p-[15px_30px] transition-all mb-5">
+    <div className="relative bg-[#f6f6f6] rounded-lg p-[15px_30px] transition-all mb-5 faq-desc">
       <h4
         onClick={() => closeOthers(course?.id, !isActive)}
         className="text-[#2c2c32] font-sans text-base font-bold leading-[22px] pb-3 uppercase cursor-pointer"

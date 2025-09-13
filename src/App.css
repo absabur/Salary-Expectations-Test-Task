@@ -35,3 +35,16 @@
 .tab:hover .hover-effect {
   width: 100%;
 }
+
+.faq-desc::after {
+  border: 15px solid hsla(0, 0%, 100%, 0);
+  border-right-color: #f2f2f5;
+  content: "";
+  height: 0;
+  margin-top: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 100%;
+  top: 9px;
+  width: 0;
+}
